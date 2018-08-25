@@ -1,0 +1,31 @@
+{
+  "name": "openload-downloader",
+  "version": "1.0.0",
+  "description": "This module helps you download openload videos to your server easily using node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test.js",
+    "prepublish": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/furkaninanc/openload-downloader.git"
+  },
+  "keywords": [
+    "openload",
+    "downloader",
+    "node.js"
+  ],
+  "author": "Furkan Inanc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/furkaninanc/openload-downloader/issues"
+  },
+  "homepage": "https://github.com/furkaninanc/openload-downloader#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "puppeteer": "^1.7.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
